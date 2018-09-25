@@ -1,25 +1,40 @@
 {
-  "name": "ios-auto-collapse-tcomb-form-native",
-  "version": "0.0.2",
-  "description": "This lib is based on tcomb-form-native(https://github.com/gcanti/tcomb-form-native). But it has a few differences - auto-collapsing for ios selects and ability to pass extraData",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint lib",
-    "test": "npm run lint && babel-node test"
+  "_from": "ios-auto-collapse-tcomb-form-native@^0.0.2",
+  "_id": "ios-auto-collapse-tcomb-form-native@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-psLYn9RSMDlOmYu16D7PR4z51IoAQHFpdQgbKXebuVTrkuVrY7ZAd4u7GrTo7Q/DHhFeoJZxXw2NX2++qO5LbA==",
+  "_location": "/ios-auto-collapse-tcomb-form-native",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "ios-auto-collapse-tcomb-form-native@^0.0.2",
+    "name": "ios-auto-collapse-tcomb-form-native",
+    "escapedName": "ios-auto-collapse-tcomb-form-native",
+    "rawSpec": "^0.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^0.0.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Vitaly-V/tcomb-form-native"
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ios-auto-collapse-tcomb-form-native/-/ios-auto-collapse-tcomb-form-native-0.0.2.tgz",
+  "_shasum": "4618ff446119bad7cad8f9896d5c510093c9476b",
+  "_spec": "ios-auto-collapse-tcomb-form-native@^0.0.2",
+  "_where": "/Users/vitalyvyrodov/RTSL/ScaSearchFacility",
+  "author": {
+    "name": "Giulio Canti",
+    "email": "giulio.canti@gmail.com"
   },
-  "author": "Giulio Canti <giulio.canti@gmail.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Vitaly-V/tcomb-form-native"
   },
-  "homepage": "https://github.com/Vitaly-V/tcomb-form-native",
+  "bundleDependencies": false,
   "dependencies": {
     "tcomb-validation": "^3.0.0"
   },
+  "deprecated": false,
+  "description": "This lib is based on tcomb-form-native(https://github.com/gcanti/tcomb-form-native). But it has a few differences - auto-collapsing for ios selects and ability to pass extraData",
   "devDependencies": {
     "@types/eslint-plugin-prettier": "^2.2.0",
     "@types/prettier": "^1.7.0",
@@ -34,6 +49,26 @@
     "react": "^15.6.1",
     "tape": "3.5.0"
   },
+  "homepage": "https://github.com/Vitaly-V/tcomb-form-native",
+  "keywords": [
+    "tcomb",
+    "form",
+    "forms",
+    "react",
+    "react-native",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ios-auto-collapse-tcomb-form-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitaly-V/tcomb-form-native.git"
+  },
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "npm run lint && babel-node test"
+  },
   "tags": [
     "tcomb",
     "form",
@@ -42,12 +77,5 @@
     "react-native",
     "react-component"
   ],
-  "keywords": [
-    "tcomb",
-    "form",
-    "forms",
-    "react",
-    "react-native",
-    "react-component"
-  ]
+  "version": "0.0.2"
 }
