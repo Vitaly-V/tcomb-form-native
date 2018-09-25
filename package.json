@@ -1,8 +1,7 @@
 {
   "name": "ios-auto-collapse-tcomb-form-native",
-  "version": "0.0.1",
-  "description":
-    "This lib is based on tcomb-form-native(https://github.com/gcanti/tcomb-form-native). But it has a few differences - auto-collapsing for ios selects and ability to pass extraData",
+  "version": "0.0.2",
+  "description": "This lib is based on tcomb-form-native(https://github.com/gcanti/tcomb-form-native). But it has a few differences - auto-collapsing for ios selects and ability to pass extraData",
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib",
@@ -35,6 +34,20 @@
     "react": "^15.6.1",
     "tape": "3.5.0"
   },
-  "tags": ["tcomb", "form", "forms", "react", "react-native", "react-component"],
-  "keywords": ["tcomb", "form", "forms", "react", "react-native", "react-component"]
+  "tags": [
+    "tcomb",
+    "form",
+    "forms",
+    "react",
+    "react-native",
+    "react-component"
+  ],
+  "keywords": [
+    "tcomb",
+    "form",
+    "forms",
+    "react",
+    "react-native",
+    "react-component"
+  ]
 }
